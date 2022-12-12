@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "ofEQyeIAcUHdi7MD/q0n+s4zPLmSyBGGOoGnjdexXHUihzKS3F7JQ5FNiCLEjuPFh32MFhGPhC8AZcvDlOEfqg==",
+  "success": true,
+  "projectFilePath": "/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/SupersocketCient.csproj",
+  "expectedPackageFiles": [
+    "/Users/wujun/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.10/microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.10/microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.options/3.1.10/microsoft.extensions.options.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.primitives/3.1.10/microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.channel/2.0.0-beta.12/supersocket.channel.2.0.0-beta.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.client/2.0.0-beta.12/supersocket.client.2.0.0-beta.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.protobase/2.0.0-beta.12/supersocket.protobase.2.0.0-beta.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/system.io.pipelines/4.7.3/system.io.pipelines.4.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}

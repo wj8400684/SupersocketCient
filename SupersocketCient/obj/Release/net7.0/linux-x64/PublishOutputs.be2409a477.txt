@@ -1,0 +1,13 @@
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SupersocketCient
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SupersocketCient.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SupersocketCient.deps.json
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SupersocketCient.runtimeconfig.json
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SupersocketCient.pdb
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/Microsoft.Extensions.Options.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/Microsoft.Extensions.Primitives.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SuperSocket.Channel.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SuperSocket.Client.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/SuperSocket.ProtoBase.dll
+/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/bin/Release/net7.0/linux-x64/publish/System.IO.Pipelines.dll

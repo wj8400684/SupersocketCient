@@ -1,0 +1,311 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Primitives": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SuperSocket.Channel/2.0.0-beta.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Options": "3.1.10",
+          "SuperSocket.ProtoBase": "2.0.0-beta.12",
+          "System.IO.Pipelines": "4.7.3"
+        },
+        "compile": {
+          "lib/net5.0/SuperSocket.Channel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SuperSocket.Channel.dll": {}
+        }
+      },
+      "SuperSocket.Client/2.0.0-beta.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "SuperSocket.Channel": "2.0.0-beta.12",
+          "SuperSocket.ProtoBase": "2.0.0-beta.12"
+        },
+        "compile": {
+          "lib/net5.0/SuperSocket.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SuperSocket.Client.dll": {}
+        }
+      },
+      "SuperSocket.ProtoBase/2.0.0-beta.12": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/SuperSocket.ProtoBase.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SuperSocket.ProtoBase.dll": {}
+        }
+      },
+      "System.IO.Pipelines/4.7.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+      "sha512": "bhjtAN7Ix5WOAr47RK16Lr1l2eizSBMCYQSavkooZyf6Xdf8XWAYGWsGsPqUFOeeRxzhpRho051rXaLn5wskVw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+      "sha512": "bKHbgzbGsPZbEaExRaJqBz3WQ1GfhMttM23e1nivLJ8HbA3Ad526mW2G2K350q3Dc3HG83I5W8uSZWG4Rv4IpA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.10": {
+      "sha512": "CusdV4eIv+CGb9Fy6a+JcRqpcVJREmvFI8eHk3nQ76VLtEAIJpKQY5r5sRSs5w6NevNi2ukdnKleH0YCPudFZQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.10.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.10": {
+      "sha512": "YDuQS3BeaVY6PCWUm5f6qFTYsxhwntQrcfwUzbohU/0rZBL5XI+UsD5SgggHKHX+rFY4laaT428q608Sw/mDsw==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "SuperSocket.Channel/2.0.0-beta.12": {
+      "sha512": "m8Eez8r251LHbiTz4Nlj/mXeeKUbqA2s3lVlFPrObs0jbqnFWgYx/5MQ1/iODoZIVFdZMLNYG7kUjZ6HoznBPA==",
+      "type": "package",
+      "path": "supersocket.channel/2.0.0-beta.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SuperSocket.Channel.dll",
+        "lib/netstandard2.1/SuperSocket.Channel.dll",
+        "supersocket.channel.2.0.0-beta.12.nupkg.sha512",
+        "supersocket.channel.nuspec"
+      ]
+    },
+    "SuperSocket.Client/2.0.0-beta.12": {
+      "sha512": "sKzg+SmwWnIxgDB1uGC1G1fmMsKlI98mg/IrA6k87Rx9vQXAUCrN8lrT14x+KnKv9S35Yhms1+vs1qWBYLi7AA==",
+      "type": "package",
+      "path": "supersocket.client/2.0.0-beta.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SuperSocket.Client.dll",
+        "lib/netstandard2.1/SuperSocket.Client.dll",
+        "supersocket.client.2.0.0-beta.12.nupkg.sha512",
+        "supersocket.client.nuspec"
+      ]
+    },
+    "SuperSocket.ProtoBase/2.0.0-beta.12": {
+      "sha512": "DsEUE8GAeDXEjZ+aXw5bNCmsBOWk1+ABkUZTqjnE9cfG5tS8uxvPfrLhhnDJIM3tc8wYGKO7A5qVSjA+RsK47g==",
+      "type": "package",
+      "path": "supersocket.protobase/2.0.0-beta.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SuperSocket.ProtoBase.dll",
+        "lib/netstandard2.1/SuperSocket.ProtoBase.dll",
+        "supersocket.protobase.2.0.0-beta.12.nupkg.sha512",
+        "supersocket.protobase.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/4.7.3": {
+      "sha512": "zykThu9scJyg2Yeg27GMZCbjzniIsmjtNP5x6kQCd/8rEeKXRy20fP2NOMS7xQ+0pS/E85LZQA+K1aoQLxiUdw==",
+      "type": "package",
+      "path": "system.io.pipelines/4.7.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/net461/System.IO.Pipelines.dll",
+        "ref/net461/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.4.7.3.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "SuperSocket.Client >= 2.0.0-beta.12"
+    ]
+  },
+  "packageFolders": {
+    "/Users/wujun/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/SupersocketCient.csproj",
+      "projectName": "SupersocketCient",
+      "projectPath": "/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/SupersocketCient.csproj",
+      "packagesPath": "/Users/wujun/.nuget/packages/",
+      "outputPath": "/Users/wujun/Desktop/MyCode/dotnet/demo/SupersocketCient/SupersocketCient/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/wujun/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "SuperSocket.Client": {
+            "target": "Package",
+            "version": "[2.0.0-beta.12, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

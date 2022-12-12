@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{99B54D87-385E-40BB-A7B9-EF62EB7998D8}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SupersocketCient/Program.cs">
+    <Files>
+      <File FileName="SupersocketCient/Program.cs" Line="31" Column="1" />
+      <File FileName="SupersocketCient/StringPacketEncode.cs" />
+      <File FileName="SupersocketCient/StringPackageDecoder.cs" />
+      <File FileName="SupersocketCient/Client.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SupersocketCient" expanded="True">
+            <Node name="SupersocketCient" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SupersocketCient PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
